@@ -47,7 +47,7 @@ Download the dataset from the [official website](https://idd.insaan.iiit.ac.in/d
 
 ## Reproduce results
 
-First download all models from the [following link](OneDriveLink) and include them in the desired folder. We recomend ````outputs/<dataset name>/````.
+First download all models from the [following link](https://tecnalia365-my.sharepoint.com/:u:/g/personal/aitor_martinez_tecnalia_com/EXv1oX9q9VZEk9qEAGaivUEBFy3Sa_MNaWgZmcSKq5Y9Jw?e=ZJEM2Z) and include them in the desired folder. We recomend ````outputs/<dataset name>/````.
 
 ### Metrics for the standard models
 
