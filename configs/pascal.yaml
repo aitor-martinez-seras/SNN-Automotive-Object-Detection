@@ -1,0 +1,42 @@
+---
+ROOT_DIR_FOR_DWLOAD: 'data/pascal/images'  # Dir for download using VOCDetection dataset class from PyTorch
+IMAGES_DIR: 'data/pascal/images/VOCdevkit/VOC2012/JPEGImages'
+ANN_DIR: 'data/pascal/annotations'
+ANN_FILE_TRAIN: 'data/pascal/annotations/pascal_train.json'
+ANN_FILE_VAL: 'data/pascal/annotations/pascal_val.json'
+OUT_DIR: 'outputs/pascal'
+NUM_CLASSES: 24
+CLASSES: [
+  { 'supercategory': 'none', 'id': 0, 'name': 'background' },
+  { 'supercategory': 'none', 'id': 1, 'name': 'aeroplane' },
+  { 'supercategory': 'none', 'id': 2, 'name': 'bicycle' },
+  { 'supercategory': 'none', 'id': 3, 'name': 'bird' },
+  { 'supercategory': 'none', 'id': 4, 'name': 'boat' },
+  { 'supercategory': 'none', 'id': 5, 'name': 'bottle' },
+  { 'supercategory': 'none', 'id': 6, 'name': 'bus' },
+  { 'supercategory': 'none', 'id': 7, 'name': 'car' },
+  { 'supercategory': 'none', 'id': 8, 'name': 'cat' },
+  { 'supercategory': 'none', 'id': 9, 'name': 'chair' },
+  { 'supercategory': 'none', 'id': 10, 'name': 'cow' },
+  { 'supercategory': 'none', 'id': 11, 'name': 'diningtable' },
+  { 'supercategory': 'none', 'id': 12, 'name': 'dog' },
+  { 'supercategory': 'none', 'id': 13, 'name': 'foot' },
+  { 'supercategory': 'none', 'id': 14, 'name': 'hand' },
+  { 'supercategory': 'none', 'id': 15, 'name': 'head' },
+  { 'supercategory': 'none', 'id': 16, 'name': 'horse' },
+  { 'supercategory': 'none', 'id': 17, 'name': 'motorbike' },
+  { 'supercategory': 'none', 'id': 18, 'name': 'person' },
+  { 'supercategory': 'none', 'id': 19, 'name': 'pottedplant' },
+  { 'supercategory': 'none', 'id': 20, 'name': 'sheep' },
+  { 'supercategory': 'none', 'id': 21, 'name': 'sofa' },
+  { 'supercategory': 'none', 'id': 22, 'name': 'train' },
+  { 'supercategory': 'none', 'id': 23, 'name': 'tvmonitor' },
+]
+
+KNOWN_CLASSES: [
+                 { 'supercategory': 'none', 'id': 0, 'name': 'background', 'orig_id': 0},
+                 { 'supercategory': 'none', 'id': 1, 'name': 'aeroplane', 'orig_id': 1},
+                 { 'supercategory': 'none', 'id': 2, 'name': 'bird', 'orig_id': 3 },
+                 { 'supercategory': 'none', 'id': 3, 'name': 'bus', 'orig_id': 6},
+                { 'supercategory': 'none', 'id': 4, 'name': 'dog' ,  'orig_id': 12},
+]

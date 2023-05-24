@@ -1,0 +1,31 @@
+IMAGES_DIR: 'data/bdd/images/100k'
+ANN_DIR: 'data/bdd/labels'
+ANN_FILE_TRAIN: 'data/bdd/labels/det_train_coco.json'
+ANN_FILE_VAL: 'data/bdd/labels/det_val_coco.json'
+
+#IMAGES_DIR: 'C:\Users\110414\PycharmProjects\datasets_for_owod\bdd100k\images\100k'
+#ANN_DIR: 'C:\Users\110414\PycharmProjects\datasets_for_owod\bdd100k\images\100k\labels'
+#ANN_FILE_TRAIN: 'C:\Users\110414\PycharmProjects\datasets_for_owod\bdd100k\labels\det_train_coco.json'
+#ANN_FILE_VAL: 'C:\Users\110414\PycharmProjects\datasets_for_owod\bdd100k\labels\det_val_coco.json'
+
+OUT_DIR: 'outputs/bdd'
+NUM_CLASSES: 11
+CLASSES: [{"id": 0, "name": "background"},
+          {"id": 1, "name": "pedestrian"},
+          {"id": 2, "name": "rider"},
+          {"id": 3, "name": "car"},
+          {"id": 4, "name": "truck"},
+          {"id": 5, "name": "bus"},
+          {"id": 6, "name": "train"},
+          {"id": 7, "name": "motorcycle"},
+          {"id": 8, "name": "bicycle"},
+          {"id": 9, "name": "traffic light"},
+          {"id": 10, "name": "traffic sign"}]
+
+KNOWN_CLASSES: [
+                 { 'supercategory': 'none', 'id': 0, 'name': 'background', 'orig_id': 0},
+                 { 'supercategory': 'none', 'id': 1, 'name': 'pedestrians', 'orig_id': 1},
+                 { 'supercategory': 'none', 'id': 2, 'name': 'motorcycle', 'orig_id': 7},
+                 { 'supercategory': 'none', 'id': 3, 'name': 'traffic sign', 'orig_id': 10},
+                 { 'supercategory': 'none', 'id': 4, 'name': 'bus', 'orig_id': 5},
+]

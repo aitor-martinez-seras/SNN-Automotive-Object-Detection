@@ -1,0 +1,26 @@
+IMAGES_DIR: 'data/idd/JPEGImages'
+ANN_DIR: ''
+ANN_FILE_TRAIN: ''
+ANN_FILE_VAL: ''
+OUT_DIR: 'outputs/idd'
+# Mean:   tensor([0.3683, 0.3796, 0.3682])
+# Std:    tensor([0.2887, 0.2934, 0.3022])
+NUM_CLASSES: 16  # Including BG
+CLASSES: [
+  { 'supercategory': 'none', 'id': 0, 'name': 'background' },
+  { 'supercategory': 'none', 'id': 1, 'name': 'person' },
+  { 'supercategory': 'none', 'id': 2, 'name': 'rider' },
+  { 'supercategory': 'none', 'id': 3, 'name': 'car' },
+  { 'supercategory': 'none', 'id': 4, 'name': 'truck' },
+  { 'supercategory': 'none', 'id': 5, 'name': 'bus' },
+  { 'supercategory': 'none', 'id': 6, 'name': 'motorcycle' },
+  { 'supercategory': 'none', 'id': 7, 'name': 'bicycle' },
+  { 'supercategory': 'none', 'id': 8, 'name': 'autorickshaw' },
+  { 'supercategory': 'none', 'id': 9, 'name': 'animal' },
+  { 'supercategory': 'none', 'id': 10, 'name': 'traffic light' },
+  { 'supercategory': 'none', 'id': 11, 'name': 'traffic sign' },
+  { 'supercategory': 'none', 'id': 12, 'name': 'vehicle fallback' },
+  { 'supercategory': 'none', 'id': 13, 'name': 'caravan' },
+  { 'supercategory': 'none', 'id': 14, 'name': 'trailer' },
+  { 'supercategory': 'none', 'id': 15, 'name': 'train' },
+]

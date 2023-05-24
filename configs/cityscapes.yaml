@@ -1,0 +1,33 @@
+IMAGES_DIR: 'data/cityscapes'
+ANN_DIR: 'data/cityscapes/annotations'
+ANN_FILE_TRAIN: 'data/cityscapes/annotations/instancesonly_filtered_gtFine_train.json'
+ANN_FILE_VAL: 'data/cityscapes/annotations/instancesonly_filtered_gtFine_val.json'
+OUT_DIR: 'outputs/cityscapes'
+# image_mean = [0.2869, 0.3251, 0.2839]
+# image_std = [0.1870, 0.1902, 0.1872]
+NUM_CLASSES: 9
+CLASSES: [
+  { 'supercategory': 'none', 'id': 0, 'name': 'background' },
+  { 'supercategory': 'none', 'id': 1, 'name': 'person' },
+  { 'supercategory': 'none', 'id': 2, 'name': 'rider' },
+  { 'supercategory': 'none', 'id': 3, 'name': 'car' },
+  { 'supercategory': 'none', 'id': 4, 'name': 'bicycle' },
+  { 'supercategory': 'none', 'id': 5, 'name': 'motorcycle' },
+  { 'supercategory': 'none', 'id': 6, 'name': 'bus' },
+  { 'supercategory': 'none', 'id': 7, 'name': 'truck' },
+  { 'supercategory': 'none', 'id': 8, 'name': 'train' },
+]
+# Classes id must be always from 0 to num_classes OLD
+#KNOWN_CLASSES: [
+#                 { 'supercategory': 'none', 'id': 0, 'name': 'background', 'orig_id': 0},
+#                 { 'supercategory': 'none', 'id': 1, 'name': 'person', 'orig_id': 1},
+#                 { 'supercategory': 'none', 'id': 2, 'name': 'car', 'orig_id': 3 },
+#                 { 'supercategory': 'none', 'id': 3, 'name': 'bus', 'orig_id': 6},
+#]
+
+KNOWN_CLASSES: [
+                 { 'supercategory': 'none', 'id': 0, 'name': 'background', 'orig_id': 0},
+                 { 'supercategory': 'none', 'id': 1, 'name': 'car', 'orig_id': 3},
+                 { 'supercategory': 'none', 'id': 2, 'name': 'bus', 'orig_id': 6 },
+                 { 'supercategory': 'none', 'id': 3, 'name': 'truck', 'orig_id': 7},
+]
