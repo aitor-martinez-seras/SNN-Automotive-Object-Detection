@@ -40,9 +40,9 @@ def main():
     x_size, y_size = 3.5, 3.5
     fig, ax = plt.subplots(1, 1, figsize=(x_size, y_size))
     ax.plot(std_dev_values[:25], gaussian_accuracy_drop_snn, label=r'$\textit{SNN}$')
-    ax.plot(std_dev_values[:25], gaussian_accuracy_drop_snn_tuned, label=r'$\textit{SNN}_{tuned}$')
+    ax.plot(std_dev_values[:25], gaussian_accuracy_drop_snn_tuned, label=r'$\textit{SNN}_{*}$')
     ax.plot(std_dev_values[:25], gaussian_accuracy_drop_nosnn, label=r'$\textit{NoSNN}$')
-    ax.plot(std_dev_values[:25], gaussian_accuracy_drop_nosnn_tuned, label=r'$\textit{NoSNN}_{tuned}$')
+    ax.plot(std_dev_values[:25], gaussian_accuracy_drop_nosnn_tuned, label=r'$\textit{NoSNN}_{*}$')
     ax.set_ylabel('Precision drop')
     ax.set_xlabel('Noise standard deviation')
     ax.legend(loc='lower right')
@@ -72,9 +72,9 @@ def main():
     x_size, y_size = 3.5, 3.5
     fig, ax = plt.subplots(1, 1, figsize=(x_size, y_size))
     ax.plot(raindrop_values, rain_accuracy_drop_snn, label=r'$\textit{SNN}$')
-    ax.plot(raindrop_values, rain_accuracy_drop_snn_tuned, label=r'$\textit{SNN}_{tuned}$')
+    ax.plot(raindrop_values, rain_accuracy_drop_snn_tuned, label=r'$\textit{SNN}_{*}$')
     ax.plot(raindrop_values, rain_accuracy_drop_nosnn, label=r'$\textit{NoSNN}$')
-    ax.plot(raindrop_values, rain_accuracy_drop_nosnn_tuned, label=r'$\textit{NoSNN}_{tuned}$')
+    ax.plot(raindrop_values, rain_accuracy_drop_nosnn_tuned, label=r'$\textit{NoSNN}_{*}$')
     ax.set_ylabel('Precision drop')
     ax.set_xlabel('Number of raindrops')
     ax.legend(loc='lower right')
