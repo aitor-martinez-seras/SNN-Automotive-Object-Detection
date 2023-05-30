@@ -1,6 +1,10 @@
-# OWOD_SNN
+# Automotive Object Detection with Spiking Neural Networks (SNNs)
 
-This is the repository containing the code and results for the paper ____. The paper is currently being evaluated for the ITSC 2023 Obtained results are available in the results folder.
+This is the repository containing the code and results for the paper Efficient Object Detection in Autonomous Driving using Spiking Neural
+Networks: Performance, Energy Consumption Analysis, and Insights
+into Open-set Object Discovery. The paper is currently being evaluated for the ITSC 2023.
+
+<img src="./workflow.png"  width="100%" />
 
 ## Requirements
 
