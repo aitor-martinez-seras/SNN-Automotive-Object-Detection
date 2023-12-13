@@ -2,7 +2,7 @@
 
 This is the repository containing the code and results for the paper Efficient Object Detection in Autonomous Driving using Spiking Neural
 Networks: Performance, Energy Consumption Analysis, and Insights
-into Open-set Object Discovery. The paper is currently being evaluated for the ITSC 2023.
+into Open-set Object Discovery. The paper is currently being evaluated for the ITSC 2023, but a preprint is available at arXiv (https://arxiv.org/abs/2312.07466).
 
 <img src="./workflow.png"  width="100%" />
 
